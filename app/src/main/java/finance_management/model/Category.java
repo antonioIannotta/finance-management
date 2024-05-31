@@ -1,4 +1,4 @@
-package finance_management.category;
+package finance_management.model;
 
 public enum Category {
     GROCERY,

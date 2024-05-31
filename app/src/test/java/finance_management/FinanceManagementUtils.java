@@ -1,10 +1,7 @@
 package finance_management;
 
-import finance_management.category.Category;
-import junit.framework.TestCase;
+import finance_management.model.Category;
 import org.junit.Test;
-
-import java.util.Arrays;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
