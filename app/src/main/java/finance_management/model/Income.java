@@ -11,14 +11,16 @@ import static finance_management.utils.FinanceManagementUtils.isDescriptionValid
 public class Income {
 
     private String category;
+    private int id;
     private float amount;
     private String description;
     private LocalDateTime date;
 
-    public Income(String category, float amount, String description, LocalDateTime date) {
+    public Income(int id, String category, float amount, String description, LocalDateTime date) {
         if (!(isCategoryValid(category, CategoryController.getCategories()) || isAmountValid(amount) || isDescriptionValid(description))) {
             throw new IllegalArgumentException();
         } else {
+            this.id = id;
             this.category = category;
             this.amount = amount;
             this.description = description;
@@ -29,6 +31,8 @@ public class Income {
     public String getCategory() {
         return category;
     }
+
+    public int setId;
 
     public void setCategory(String category) {
         this.category = category;

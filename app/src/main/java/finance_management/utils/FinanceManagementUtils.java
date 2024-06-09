@@ -3,10 +3,11 @@ package finance_management.utils;
 import finance_management.model.Category;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class FinanceManagementUtils {
 
-    public static boolean isCategoryValid(String category, ArrayList<String> categories) {
+    public static boolean isCategoryValid(String category, List<String> categories) {
         for (String c : categories) {
             if (c.equals(category.toUpperCase())) {
                 return true;
