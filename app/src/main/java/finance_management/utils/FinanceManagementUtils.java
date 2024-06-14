@@ -1,8 +1,5 @@
 package finance_management.utils;
 
-import finance_management.model.Category;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class FinanceManagementUtils {

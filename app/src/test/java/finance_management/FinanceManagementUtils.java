@@ -1,6 +1,6 @@
 package finance_management;
 
-import finance_management.model.Category;
+import finance_management.model.category.Category;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;
